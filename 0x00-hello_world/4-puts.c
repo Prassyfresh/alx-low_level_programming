@@ -5,12 +5,11 @@
  *
  * Return: Always 0 (Sucess)
  */
-int main()
+int main(int argc, char* argv[])
 {
-	//string intialisation 
-	char Mystr[]= "Programming is like buliding a multilingual puzzle";
+	char str[]= "Programming is like buliding a multilingual puzzle";
 
-	puts(Mystr); //writing the string to stdout
+	puts(str);
 
 	return 0;
 }
