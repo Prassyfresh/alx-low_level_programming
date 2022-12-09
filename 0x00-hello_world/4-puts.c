@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Sucess)
  */
-int main(int argc, char* argv[])
+int main()
 {
 	char str[]= "Programming is like buliding a multilingual puzzle";
 
