@@ -1,22 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - prints a given phrase
+ * main - prints size of types
  * Return: 0 if exited properly, non-zero otherwise
  */
 
 int main(void)
 {
-	int intType;
-	float floatType;
-	char charType;
-	long int longintType;
-	long long int longlongintType;
-
-	printf("Size of int: %zu bytes\n", sizeof(intType));
-	printf("Size of float: %zu bytes\n", sizeof(floatType));
-	printf("Size of char: %zu byte\n", sizeof(charType));
-	 printf("Size of long int: %zu bytes\n", sizeof(longintType));
-	 printf("Size of long long int: %zu bytes\n", sizeof(longlongintType));
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	  printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	   printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
 		return (0);
 }
