@@ -1,16 +1,12 @@
 #include <stdio.h>
 
 /**
- * main -Entry point 
- *
- * Return: Always 0 (Success)
+ * main - prints a given phrase
+ * Return: 0 if exited properly, non-zero otherwise
  */
-int main()
+
+int main(void)
 {
-	char str[]= "\"Programming is like buliding a multilingual puzzle";
-
-	puts(str);
-
-	return 0;
+	puts("\"Programming is like building a mutilingual puzzle");
+		return (0);
 }
-
